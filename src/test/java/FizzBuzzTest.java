@@ -35,4 +35,9 @@ public class FizzBuzzTest {
         Assert.assertEquals(result, "Fizz");
     }
 
+    @Test
+    void testFizzOnFifteen() {
+        String result = fizzBuzz.fizzBuzz(15);
+        Assert.assertEquals(result, "FizzBuzz");
+    }
 }
