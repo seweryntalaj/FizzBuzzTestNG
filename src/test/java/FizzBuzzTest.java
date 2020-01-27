@@ -52,7 +52,7 @@ public class FizzBuzzTest {
         for (Integer n : numbers) {
             String result = fizzBuzz.fizzBuzz(n);
 
-            if (n % 15 == 0) {
+            if (n % 5 == 0 && n % 3 == 0) {
                 Assert.assertEquals(result, "FizzBuzz");
             } else if (n % 5 == 0) {
                 Assert.assertEquals(result, "Buzz");
