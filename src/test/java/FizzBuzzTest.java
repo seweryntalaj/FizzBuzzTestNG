@@ -16,4 +16,10 @@ public class FizzBuzzTest {
         String result = fizzBuzz.fizzBuzz(3);
         Assert.assertEquals(result, "Fizz");
     }
+
+    @Test
+    void testFizzOnFive() {
+        String result = fizzBuzz.fizzBuzz(5);
+        Assert.assertEquals(result, "Buzz");
+    }
 }
