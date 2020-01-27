@@ -28,4 +28,11 @@ public class FizzBuzzTest {
         String result = fizzBuzz.fizzBuzz(6);
         Assert.assertEquals(result, "Fizz");
     }
+
+    @Test
+    void testFizzOnNine() {
+        String result = fizzBuzz.fizzBuzz(9);
+        Assert.assertEquals(result, "Fizz");
+    }
+
 }
