@@ -10,4 +10,10 @@ public class FizzBuzzTest {
         String result = fizzBuzz.fizzBuzz(1);
         Assert.assertEquals(result, "1");
     }
+
+    @Test
+    void testFizzOnThree() {
+        String result = fizzBuzz.fizzBuzz(3);
+        Assert.assertEquals(result, "Fizz");
+    }
 }
